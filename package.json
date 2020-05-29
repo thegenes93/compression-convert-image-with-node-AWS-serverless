@@ -1,0 +1,17 @@
+{
+  "name": "testestestestes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "optimize.js",
+  "scripts": {
+    "predeploy": "rm -rf node_modules/sharp && npm install --platform=linux --arch=x64 --target=10.20.1 sharp",
+    "deploy": "serverless deploy -v",
+    "postdeploy": "rm -rf node_modules/sharp && npm install sharp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.21.3"
+  }
+}
