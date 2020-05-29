@@ -1,23 +1,36 @@
-Requisto
-Serverless
+<h3 align="center">
+ Compression and convert image with node AWS serverless
+</h3>
 
 
-para instalar
+## 🚀 Tecnologias
 
-execute npm i serverless -g
+- Serverless
+- Sharp
 
-depois crie um usuari no aws IAM para gerar as credenciais
 
-para iniciar um projeto execute
-serverless create --template aws-nodejs --path nodeless
+## ✋🏻 Necessario
 
-configure suas credenciais
-serverless config credentials -o --provider aws --key=AKIAW7575T3QHAIYYE5Y  --secret 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
+- Node.js
+- Acount AWS
 
-para fazer o deploy do codigo
-serverless deploy -v
+## Instalação 
 
-pare remover
-serverless remove
+-Execute 
+    `npm i serverless -g`
+
+-Crie um usuario no aws IAM para gerar as credenciais
+
+-Para iniciar um projeto execute
+    `serverless create --template aws-nodejs --path nodeless`
+
+-Configure suas credenciais
+    `serverless config credentials -o --provider aws --key=SUAKEY  --secret SUASECRET`
+
+-Para fazer o deploy do codigo
+    `serverless deploy -v`
+
+-Pare remover
+    `serverless remove`
 
 
